@@ -1,5 +1,18 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--wheat);
+  }
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+}
+
+@theme {
+  --font-roboto: "Gilda Display", sans-serif; 
+}
 
 
 :root {

@@ -10,7 +10,7 @@ export default function LadingPage() {
                 <p className="text-lg md:text-xl">
                     Viva uma experiência única a cada gole.
                 </p>
-                <h1 className="text-4xl md:text-6xl font-bold mt-4 w-200">
+                <h1 className="text-4xl md:text-6xl mt-4 w-200 text-[#260401] bg-primary">
                     Desperte seus sentidos
                 </h1>
                 <button className="mt-6 px-6 py-3 bg-red-950 text-white text-lg rounded">
