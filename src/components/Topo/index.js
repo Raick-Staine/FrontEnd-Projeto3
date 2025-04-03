@@ -4,16 +4,16 @@ import { CiUser } from "react-icons/ci";
 
 export default function Topo() {
     return (
-        <header>
+        <header className='w-full h-20 fixed bg-black z-10 shadow-lg uppercase'>
 
-        <div className="flex items-center justify-between p-4">
-            <img className="h-30 w-30"  src='vivant-logo-clara.png' /> 
+        <div className="flex items-center justify-between">
+            <img className="h-12 w-22 ml-10"  src='vivanti.png' /> 
 
-            <nav className="flex items-center justify-between p-4 gap-10">
-                <a className='text-[24px]' href='#'>Home</a>
-                <a className='text-[24px]' href='#'>Vinhos</a>
-                <a className='text-[24px]' href='#'>Sobre nós</a>
-                <a className='text-[24px]' href='#'>Contato</a>
+            <nav className="flex items-center justify-between pr-10 p-5 gap-10">
+                <a className='text-[20px]' href='#'>Home</a>
+                <a className='text-[20px]' href='#'>Vinhos</a>
+                <a className='text-[20px]' href='#'>Sobre nós</a>
+                <a className='text-[20px]' href='#'>Contato</a>
 
                 <a className='text-[28px]' href='#'> <PiShoppingCartThin /> </a>
                 <a className='text-[28px]' href='#'> <CiUser /> </a>
