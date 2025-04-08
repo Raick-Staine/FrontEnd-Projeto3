@@ -2,12 +2,7 @@
 @import "tailwindcss";
 
 @layer utilities {
-  .bg-primary {
-    background-color: var(--wheat);
-  }
-  .text-secondary {
-    color: var(--secondary-color);
-  }
+  
 }
 
 @theme {
@@ -24,16 +19,6 @@
   --wheat: #E1D5C2
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000002;
-    --blue: #20232A;
-    --dark-red: #260401;
-    --red: #3F0D09;
-    --white: #EAE5E1;
-    --wheat: #E1D5C2
-  }
-}
 
 * {
   font-family: "Gilda Display", serif;
