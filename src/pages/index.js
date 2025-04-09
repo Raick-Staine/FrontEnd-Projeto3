@@ -16,26 +16,136 @@ export default function Home() {
       <Topo />
       <LadingPage />
 
+
+
       <div className="flex flex-col justify-center items-center p-4 ">
-        <h3 className="text-2xl md:text-3xl text-center mt-8 mb-5">Saiba como escolher o vinho ideal para você!</h3>
-        <div class="flex gap-5 flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 mb-12">
-          <div class="bg-[#260401] p-6 rounded-lg text-center w-100 h-50">
+        <h3 className="md:text-3xl text-center mt-8 mb-5 text-[#E1D5C2]">Saiba como escolher o vinho ideal para você!</h3>
+        <div className="flex gap-5 flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 mb-12">
+          <div className="bg-[#260401] p-6 rounded-lg text-center w-100 h-50">
             <p>
-              <p className="text-[#E1D5C2] mb-2 text-[20px]">Para quem ama frescor e leveza:</p> O vinho branco é perfeito para quem busca algo refrescante e leve. Com sabores de frutas como maçã verde e pêssego, ele é ideal para momentos de celebração ou refeições leves, como saladas e frutos do mar.
+              <p className="text-[#E1D5C2] mb-2  text-[20px]">Para quem ama frescor e leveza:</p> O vinho branco é perfeito para quem busca algo refrescante e leve. Com sabores de frutas como maçã verde e pêssego, ele é ideal para momentos de celebração ou refeições leves, como saladas e frutos do mar.
             </p>
           </div>
-          <div class="bg-[#260401] p-6 rounded-lg text-center w-100 h-50 mb-20">
+          <div className="bg-[#260401] p-6 rounded-lg text-center w-100 h-50 mb-20">
             <p>
               <p className="text-[#E1D5C2] mb-2 text-[20px]">Para quem gosta de algo mais intenso:</p> O vinho tinto é ideal. Com sabores mais encorpados e notas de frutas escuras e especiarias, ele proporciona uma experiência rica e marcante para quem aprecia vinhos com mais personalidade.
             </p>
           </div>
-          <div class="bg-[#260401] p-6 rounded-lg text-center w-100 h-50">
+          <div className="bg-[#260401] p-6 rounded-lg text-center w-100 h-50">
             <p>
-             <p className="text-[#E1D5C2] mb-2 text-[20px]">Para quem prefere algo mais doce:</p> O vinho rosé é uma ótima opção. Ele tem um equilíbrio entre a leveza do vinho branco e a suavidade do vinho tinto, com sabores de frutas vermelhas e um toque de doçura, ideal para quem gosta de algo mais suave.
+              <p className="text-[#E1D5C2] mb-2 text-[20px]">Para quem prefere algo mais doce:</p> O vinho rosé é uma ótima opção. Ele tem um equilíbrio entre a leveza do vinho branco e a suavidade do vinho tinto, com sabores de frutas vermelhas e um toque de doçura, ideal para quem gosta de algo mais suave.
             </p>
           </div>
         </div>
+
+
+
+
+        <h1 class="text-center md:text-3xl mb-8 text-[#E1D5C2] mt-25">
+          Descubra os vinhos mais especiais da nossa seleção!
+        </h1>
+        <div class="grid gap-8 w-2/4 mt-15">
+
+          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row">
+            <img alt="Garrafa de vinho tinto com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/fiDSeApC0I50T0ZmHiokDe0hXnm_tUbPyB4GWVf5ksI.jpg" width="600" />
+            <div class="p-6 md:p-8 flex flex-col justify-center">
+              <h2 class="text-[16px] mb-2 text-[#E1D5C2]"> Conheça Nossos: </h2>
+              <h3 class="text-2xl md:text-3xl mb-4"> Vinhos Tintos </h3>
+              <p class="mb-4">
+                Intensos, encorpados e repletos de aromas marcantes, os vinhos tintos brasileiros são perfeitos para quem aprecia sabor e tradição.
+              </p>
+              <p class="mb-4">
+
+                Ideias para harmonizar com:
+
+              </p>
+              <ul class="list-disc list-inside mb-4">
+                <li>
+                  Carnes
+                </li>
+                <li>
+                  Queijos curados
+                </li>
+                <li>
+                  Momentos especiais
+                </li>
+              </ul>
+              <button class="bg-red-800 text-white py-2 px-4 rounded">
+                Compre conosco
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row-reverse">
+            <img alt="Garrafa de vinho branco com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/wRufu1WUFzSfjG2vHpU5XjQCF-PdUa81MgtyGamwzfk.jpg" width="600" />
+            <div class="p-6 md:p-8 flex flex-col justify-center">
+              <h2 class="text-[16px] mb-2 text-[#E1D5C2]">
+                Conheça Nossos:
+              </h2>
+              <h3 class="text-2xl md:text-3xl mb-4">
+                Vinhos Brancos
+              </h3>
+              <p class="mb-4">
+                Leves, refrescantes e aromáticos, os vinhos brancos brasileiros são perfeitos para quem busca frescor em cada gole.
+              </p>
+              <p class="mb-4">
+
+                Ideias para harmonizar com:
+
+              </p>
+              <ul class="list-disc list-inside mb-4">
+                <li>
+                  Frutos do mar
+                </li>
+                <li>
+                  Queijos suaves
+                </li>
+                <li>
+                  Dias ensolarados
+                </li>
+              </ul>
+              <button class="bg-red-800 text-white py-2 px-4 rounded">
+                Compre conosco
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row">
+            <img alt="Garrafa de vinho rosé com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/Wjcrsx2UicEL5nHAU9sTdOPZRNXcV7KfnN1ysKNOa4I.jpg" width="600" />
+            <div class="p-6 md:p-8 flex flex-col justify-center">
+              <h2 class="text-[16px] mb-2 text-[#E1D5C2]">
+                Conheça Nossos:
+              </h2>
+              <h3 class="text-2xl md:text-3xl mb-4">
+                Vinhos Rosés
+              </h3>
+              <p class="mb-4">
+                Leves e vibrantes, os vinhos rosés oferecem um equilíbrio perfeito entre a frescura dos brancos e a intensidade dos tintos.
+              </p>
+              <p class="mb-4">
+
+                Ideias para harmonizar com:
+
+              </p>
+              <ul class="list-disc list-inside mb-4">
+                <li>
+                  Saladas
+                </li>
+                <li>
+                  Queijos suaves
+                </li>
+                <li>
+                  Dias quentes
+                </li>
+              </ul>
+              <button class="bg-red-800 text-white py-2 px-4 rounded">
+                Compre conosco
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+
 
 
     </>
