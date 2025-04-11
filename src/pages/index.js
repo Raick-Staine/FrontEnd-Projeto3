@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="bg-[#260401] p-6 rounded-lg text-center w-100 h-50 mb-20">
             <p>
-              <p className="text-[#E1D5C2] mb-2 text-[20px]">Para quem gosta de algo mais intenso:</p> O vinho tinto é ideal. Com sabores mais encorpados e notas de frutas escuras e especiarias, ele proporciona uma experiência rica e marcante para quem aprecia vinhos com mais personalidade.
+              <p className="text-[#E1D5C2] ">Para quem gosta de algo mais intenso:</p> O vinho tinto é ideal. Com sabores mais encorpados e notas de frutas escuras e especiarias, ele proporciona uma experiência rica e marcante para quem aprecia vinhos com mais personalidade.
             </p>
           </div>
           <div className="bg-[#260401] p-6 rounded-lg text-center w-100 h-50">
@@ -46,15 +46,16 @@ export default function Home() {
         </h1>
         <div class="grid gap-8 w-2/4 mt-15">
 
-          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row">
-            <img alt="Garrafa de vinho tinto com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/fiDSeApC0I50T0ZmHiokDe0hXnm_tUbPyB4GWVf5ksI.jpg" width="600" />
-            <div class="p-6 md:p-8 flex flex-col justify-center">
+          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row mb-5">
+            <img alt="Garrafa de vinho tinto com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="vinho_tinto.png" width="600" />
+            <div class="p-6 md:p-8 flex flex-col justify-center ml-5">
               <h2 class="text-[16px] mb-2 text-[#E1D5C2]"> Conheça Nossos: </h2>
               <h3 class="text-2xl md:text-3xl mb-4"> Vinhos Tintos </h3>
+              <hr className="w-35 ml-8 mt-0 mb-4 text-[#E1D5C2]"/>
               <p class="mb-4">
                 Intensos, encorpados e repletos de aromas marcantes, os vinhos tintos brasileiros são perfeitos para quem aprecia sabor e tradição.
               </p>
-              <p class="mb-4">
+              <p class="mb-4 text-[#E1D5C2]">
 
                 Ideias para harmonizar com:
 
@@ -70,25 +71,26 @@ export default function Home() {
                   Momentos especiais
                 </li>
               </ul>
-              <button class="bg-red-800 text-white py-2 px-4 rounded">
+              <button class="bg-[#3F0D09] text-white py-1 px-4 rounded-md w-45">
                 Compre conosco
               </button>
             </div>
           </div>
 
-          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row-reverse">
-            <img alt="Garrafa de vinho branco com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/wRufu1WUFzSfjG2vHpU5XjQCF-PdUa81MgtyGamwzfk.jpg" width="600" />
-            <div class="p-6 md:p-8 flex flex-col justify-center">
+          <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row-reverse mb-5">
+            <img alt="Garrafa de vinho branco com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="vinho_branco.png" width="600" />
+            <div class="p-6 md:p-8 flex flex-col justify-center ml-5">
               <h2 class="text-[16px] mb-2 text-[#E1D5C2]">
                 Conheça Nossos:
               </h2>
-              <h3 class="text-2xl md:text-3xl mb-4">
+              <h3 class="text-2xl md:text-3xl">
                 Vinhos Brancos
               </h3>
+              <hr className="w-40 ml-8 mt-4 mb-4 text-[#E1D5C2]"/>
               <p class="mb-4">
                 Leves, refrescantes e aromáticos, os vinhos brancos brasileiros são perfeitos para quem busca frescor em cada gole.
               </p>
-              <p class="mb-4">
+              <p class="mb-4 text-[#E1D5C2]">
 
                 Ideias para harmonizar com:
 
@@ -104,25 +106,26 @@ export default function Home() {
                   Dias ensolarados
                 </li>
               </ul>
-              <button class="bg-red-800 text-white py-2 px-4 rounded">
+              <button class="bg-[#3F0D09] text-white py-2 px-4 rounded-md w-45">
                 Compre conosco
               </button>
             </div>
           </div>
 
           <div class="bg-[#20232A] rounded-lg overflow-hidden flex flex-col md:flex-row">
-            <img alt="Garrafa de vinho rosé com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/Wjcrsx2UicEL5nHAU9sTdOPZRNXcV7KfnN1ysKNOa4I.jpg" width="600" />
-            <div class="p-6 md:p-8 flex flex-col justify-center">
+            <img alt="Garrafa de vinho rosé com taças" class="w-full md:w-1/2 object-cover rounded-lg" height="400" src="Rosé Season _ Wine photography, Wine, Wine knowledge.png" width="600" />
+            <div class="p-6 md:p-8 flex flex-col justify-center ml-5">
               <h2 class="text-[16px] mb-2 text-[#E1D5C2]">
                 Conheça Nossos:
               </h2>
               <h3 class="text-2xl md:text-3xl mb-4">
                 Vinhos Rosés
               </h3>
+              <hr className="w-32 ml-8 mt-0 mb-4 text-[#E1D5C2]"/>
               <p class="mb-4">
                 Leves e vibrantes, os vinhos rosés oferecem um equilíbrio perfeito entre a frescura dos brancos e a intensidade dos tintos.
               </p>
-              <p class="mb-4">
+              <p class="mb-4 text-[#E1D5C2]">
 
                 Ideias para harmonizar com:
 
@@ -138,7 +141,7 @@ export default function Home() {
                   Dias quentes
                 </li>
               </ul>
-              <button class="bg-red-800 text-white py-2 px-4 rounded">
+              <button class="bg-[#3F0D09] text-white py-2 px-4 rounded-md w-45">
                 Compre conosco
               </button>
             </div>
