@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Topo from "@/components/Topo";
 import LadingPage from "@/components/LadingPage";
-import Footer from "@/components/Footer";
-
 
 
 export default function Home() {
@@ -17,6 +15,8 @@ export default function Home() {
 
       <Topo />
       <LadingPage />
+
+
 
       <div className="flex flex-col justify-center items-center p-4 ">
         <h3 className="md:text-3xl text-center mt-8 mb-5 text-[#E1D5C2]">Saiba como escolher o vinho ideal para você!</h3>
@@ -149,7 +149,8 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer />
+
+
     </>
   );
 }
