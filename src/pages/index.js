@@ -2,6 +2,7 @@ import Head from "next/head";
 import Topo from "@/components/Topo";
 import LadingPage from "@/components/LadingPage";
 import Footer from "@/components/Footer";
+import MaisVendidos from "@/components/MaisVendidos";
 
 
 export default function Home() {
@@ -150,6 +151,7 @@ export default function Home() {
         </div>
       </div>
 
+      <MaisVendidos />
       <Footer />
     </>
   );
